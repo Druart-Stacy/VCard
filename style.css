@@ -1,9 +1,9 @@
 body{
-    background-color:#F5E8F9;
-}
-.color1 {
     background-color:#D7C8F4;
-    height: 100%; /* Hauteur de la div */
+}
+#color1 {
+    background-color:#e598fd;
+    height: 100vh; /* Hauteur de la div */
     width: 50%; /* Largeur de la div */
     position: relative; /* Position relative pour permettre le positionnement absolu de l'image */
 }
@@ -13,16 +13,21 @@ body{
     top: 50%; /* Positionner l'image au centre verticalement */
     left: 50%; /* Positionner l'image au centre horizontalement */
     transform: translate(-50%, -50%); /* Ajuster l'image pour la centrer précisément */
-    height: 30%; /* Ajuster la taille de l'image */
-    width: 30%;
+    height: 75%; /* Ajuster la taille de l'image */
+    width: 35%;
     border-radius: 50%;
     z-index: 1; /* Assurez-vous que l'image est au-dessus du contenu de la div */
 }
-h1 ,p{
+#text{
     text-align: right;
-    
 }
-
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    
+/*bouton*/
 .colorB {
     text-decoration: none;
     padding: 10px;
@@ -40,10 +45,15 @@ h1 ,p{
     }
     
     
-    .colorBn:hover {
+    .colorB:hover {
     padding: 10px;
     background-color: #a67cfb;
     box-shadow: 1px 1px 4px #777777;
     -webkit-box-shadow: 1px 1px 4px #777777;
     -moz-box-shadow: 1px 1px 4px #777777;
     }
+img{
+    height: 100px;
+    width: 100px;
+    top: 50%; /* Positionner l'image au centre verticalement */
+}
