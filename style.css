@@ -1,0 +1,49 @@
+body{
+    background-color:#F5E8F9;
+}
+.color1 {
+    background-color:#D7C8F4;
+    height: 100%; /* Hauteur de la div */
+    width: 50%; /* Largeur de la div */
+    position: relative; /* Position relative pour permettre le positionnement absolu de l'image */
+}
+
+.Avatar {
+    position: absolute; /* Position absolue pour flotter au-dessus de la div */
+    top: 50%; /* Positionner l'image au centre verticalement */
+    left: 50%; /* Positionner l'image au centre horizontalement */
+    transform: translate(-50%, -50%); /* Ajuster l'image pour la centrer précisément */
+    height: 30%; /* Ajuster la taille de l'image */
+    width: 30%;
+    border-radius: 50%;
+    z-index: 1; /* Assurez-vous que l'image est au-dessus du contenu de la div */
+}
+h1 ,p{
+    text-align: right;
+    
+}
+
+.colorB {
+    text-decoration: none;
+    padding: 10px;
+    font-family: arial;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #D7C8F4;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border: 4px solid #FFFFFF;
+    box-shadow: 3px 3px 12px #5f497a;
+    -webkit-box-shadow: 3px 3px 12px #5f497a;
+    -moz-box-shadow: 3px 3px 12px #5f497a;
+    }
+    
+    
+    .colorBn:hover {
+    padding: 10px;
+    background-color: #a67cfb;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+    }
