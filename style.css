@@ -5,7 +5,8 @@ body{
     background-color:#e598fd;
     height: 100vh; /* Hauteur de la div */
     width: 50%; /* Largeur de la div */
-    position: relative; /* Position relative pour permettre le positionnement absolu de l'image */
+    align-items: center;/*center les logos dans le sens vertical*/
+    display: block;
 }
 
 .Avatar {
@@ -13,18 +14,23 @@ body{
     top: 50%; /* Positionner l'image au centre verticalement */
     left: 50%; /* Positionner l'image au centre horizontalement */
     transform: translate(-50%, -50%); /* Ajuster l'image pour la centrer précisément */
-    height: 75%; /* Ajuster la taille de l'image */
-    width: 35%;
+    height: 75%;
+    width: 35%; 
     border-radius: 50%;
     z-index: 1; /* Assurez-vous que l'image est au-dessus du contenu de la div */
 }
 #text{
-    text-align: right;
+    text-align: right; 
+    align-items:center; 
+    display:block;
+    margin-left: 20%;
 }
+
 .conteneur {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items:center; 
 }
     
 /*bouton*/
@@ -39,12 +45,7 @@ body{
     -webkit-border-radius: 24px;
     -moz-border-radius: 24px;
     border: 4px solid #FFFFFF;
-    box-shadow: 3px 3px 12px #5f497a;
-    -webkit-box-shadow: 3px 3px 12px #5f497a;
-    -moz-box-shadow: 3px 3px 12px #5f497a;
     }
-    
-    
     .colorB:hover {
     padding: 10px;
     background-color: #a67cfb;
@@ -52,8 +53,10 @@ body{
     -webkit-box-shadow: 1px 1px 4px #777777;
     -moz-box-shadow: 1px 1px 4px #777777;
     }
-img{
+.logo{
     height: 100px;
     width: 100px;
     top: 50%; /* Positionner l'image au centre verticalement */
+    margin-top: 15%;
+    
 }
